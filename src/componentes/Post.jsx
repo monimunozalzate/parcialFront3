@@ -19,7 +19,7 @@ export default function Post({cuentaTotalClicks, item, }) {
     const handleClick=()=>{
         setconteoClicks(conteoClicks+1);
         cuentaTotalClicks();
-        console.log(conteoClicks + 1 +" Suma 1 like: "+ item.titulo);
+        console.log((conteoClicks + 1) +" Suma 1 like: "+ item.titulo);
     }
 
   return (
