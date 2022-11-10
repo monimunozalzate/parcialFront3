@@ -28,8 +28,8 @@ export default function Post({cuentaTotalClicks, item, }) {
         <p>{item.texto}</p>
         <button
             onClick={handleClick}
-        ></button>
-        <h5>{conteoClicks <= 10 ? conteoClicks: "Mas de 10 likes"}&#128077;</h5>
+        >&#128077;</button>
+        <h5>{conteoClicks <= 10 ? conteoClicks: "Mas de 10 likes"}</h5>
     </div>
   )
 }
